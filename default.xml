@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="e"
-           fetch=".."
+           fetch="../../.."
            revision="v1-nougat"/>
 
   <remote  name="github"
