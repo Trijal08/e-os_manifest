@@ -5,4 +5,3 @@ include:
   - project: 'e/templates'
     ref: master
     file: '/gitlab-ci/.gitlab-ci-import-updates-from-upstream.yml'
-
