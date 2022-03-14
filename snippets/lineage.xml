@@ -169,6 +169,7 @@
   <project path="lineage/android" name="e/os/android" remote="e" />
   <project path="lineage-sdk" name="e/os/android_lineage-sdk" remote="e" />
   <project path="packages/apps/Backgrounds" name="e/os/android_packages_apps_Backgrounds" remote="e" />
+  <project path="packages/apps/Calendar" name="e/os/android_packages_apps_Etar" remote="e" />
   <project path="packages/apps/Eleven" name="e/os/android_packages_apps_Eleven" remote="e" />
   <project path="packages/apps/ExactCalculator" name="e/os/android_packages_apps_ExactCalculator" remote="e" />
   <project path="packages/apps/LineageParts" name="e/os/android_packages_apps_LineageParts" remote="e" />
