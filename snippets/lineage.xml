@@ -176,7 +176,7 @@
   <project path="packages/apps/Trebuchet" name="e/os/android_packages_apps_Trebuchet" remote="e" />
   <project path="packages/apps/Updater" name="e/os/android_packages_apps_Updater" remote="e" />
   <project path="packages/apps/SetupWizard" name="e/os/android_packages_apps_SetupWizard" remote="e" />
-  <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks" remote="e" revision="master" clone-depth="1" />
+  <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks" remote="e" revision="master" />
   <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" />
 
 </manifest>
