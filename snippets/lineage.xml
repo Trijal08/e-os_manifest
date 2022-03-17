@@ -165,19 +165,19 @@
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
 
   <!-- /e/ OS additions -->
-  <project path="device/lineage/sepolicy" name="e/os/android_device_lineage_sepolicy" remote="e" />
-  <project path="lineage/android" name="e/os/android" remote="e" />
-  <project path="lineage-sdk" name="e/os/android_lineage-sdk" remote="e" />
-  <project path="packages/apps/Backgrounds" name="e/os/android_packages_apps_Backgrounds" remote="e" />
-  <project path="packages/apps/Calendar" name="e/os/android_packages_apps_Etar" remote="e" />
-  <project path="packages/apps/Eleven" name="e/os/android_packages_apps_Eleven" remote="e" />
-  <project path="packages/apps/ExactCalculator" name="e/os/android_packages_apps_ExactCalculator" remote="e" />
-  <project path="packages/apps/LineageParts" name="e/os/android_packages_apps_LineageParts" remote="e" />
-  <project path="packages/apps/Recorder" name="e/os/android_packages_apps_Recorder" remote="e" />
-  <project path="packages/apps/Trebuchet" name="e/os/android_packages_apps_Trebuchet" remote="e" />
-  <project path="packages/apps/Updater" name="e/os/android_packages_apps_Updater" remote="e" />
-  <project path="packages/apps/SetupWizard" name="e/os/android_packages_apps_SetupWizard" remote="e" />
-  <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks" remote="e" revision="master" />
-  <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" />
+  <project path="device/lineage/sepolicy" name="e/os/android_device_lineage_sepolicy" remote="e-priv" />
+  <project path="lineage/android" name="e/os/android" remote="e-priv" />
+  <project path="lineage-sdk" name="e/os/android_lineage-sdk" remote="e-priv" />
+  <project path="packages/apps/Backgrounds" name="e/os/android_packages_apps_Backgrounds" remote="e-priv" />
+  <project path="packages/apps/Calendar" name="e/os/android_packages_apps_Etar" remote="e-priv" />
+  <project path="packages/apps/Eleven" name="e/os/android_packages_apps_Eleven" remote="e-priv" />
+  <project path="packages/apps/ExactCalculator" name="e/os/android_packages_apps_ExactCalculator" remote="e-priv" />
+  <project path="packages/apps/LineageParts" name="e/os/android_packages_apps_LineageParts" remote="e-priv" />
+  <project path="packages/apps/Recorder" name="e/os/android_packages_apps_Recorder" remote="e-priv" />
+  <project path="packages/apps/Trebuchet" name="e/os/android_packages_apps_Trebuchet" remote="e-priv" />
+  <project path="packages/apps/Updater" name="e/os/android_packages_apps_Updater" remote="e-priv" />
+  <project path="packages/apps/SetupWizard" name="e/os/android_packages_apps_SetupWizard" remote="e-priv" />
+  <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks" remote="e-priv" revision="master" />
+  <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e-priv" />
 
 </manifest>
