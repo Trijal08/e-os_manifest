@@ -2,9 +2,9 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="e/os/android" remote="e" />
+  <project path="android" name="e/os/android" remote="e-ssh" />
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
-  <project path="device/lineage/sepolicy" name="e/os/android_device_lineage_sepolicy" remote="e" />
+  <project path="device/lineage/sepolicy" name="e/os/android_device_lineage_sepolicy" remote="e-ssh" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
@@ -24,29 +24,29 @@
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
   <!--<project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />-->
-  <project path="lineage-sdk" name="e/os/android_lineage-sdk" remote="e" />
+  <project path="lineage-sdk" name="e/os/android_lineage-sdk" remote="e-ssh" />
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
-  <project path="packages/apps/Backgrounds" name="e/os/android_packages_apps_Backgrounds" remote="e" />
-  <project path="packages/apps/Eleven" name="e/os/android_packages_apps_Eleven" remote="e" />
-  <project path="packages/apps/ExactCalculator" name="e/os/android_packages_apps_ExactCalculator" remote="e" />
+  <project path="packages/apps/Backgrounds" name="e/os/android_packages_apps_Backgrounds" remote="e-ssh" />
+  <project path="packages/apps/Eleven" name="e/os/android_packages_apps_Eleven" remote="e-ssh" />
+  <project path="packages/apps/ExactCalculator" name="e/os/android_packages_apps_ExactCalculator" remote="e-ssh" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
-  <project path="packages/apps/FMRadio" name="e/os/android_packages_apps_FMRadio" remote="e" />
+  <project path="packages/apps/FMRadio" name="e/os/android_packages_apps_FMRadio" remote="e-ssh" />
   <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
   <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" />
-  <project path="packages/apps/LineageParts" name="e/os/android_packages_apps_LineageParts" remote="e" />
+  <project path="packages/apps/LineageParts" name="e/os/android_packages_apps_LineageParts" remote="e-ssh" />
   <!--<project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />-->
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
-  <project path="packages/apps/Recorder" name="e/os/android_packages_apps_Recorder" remote="e" />
+  <project path="packages/apps/Recorder" name="e/os/android_packages_apps_Recorder" remote="e-ssh" />
   <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
-  <project path="packages/apps/SetupWizard" name="e/os/android_packages_apps_SetupWizard" remote="e" />
-  <project path="packages/apps/Trebuchet" name="e/os/android_packages_apps_Trebuchet" remote="e" />
-  <project path="packages/apps/Updater" name="e/os/android_packages_apps_Updater" remote="e" />
+  <project path="packages/apps/SetupWizard" name="e/os/android_packages_apps_SetupWizard" remote="e-ssh" />
+  <project path="packages/apps/Trebuchet" name="e/os/android_packages_apps_Trebuchet" remote="e-ssh" />
+  <project path="packages/apps/Updater" name="e/os/android_packages_apps_Updater" remote="e-ssh" />
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" revision="lineage-16.0" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
-  <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" />
+  <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e-ssh" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
@@ -89,34 +89,34 @@
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
   <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-17.1-caf" />
-  <project path="hardware/qcom-caf/msm8916/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8916" remote="e" />
+  <project path="hardware/qcom-caf/msm8916/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8916" remote="e-ssh" />
   <project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8916" />
   <project path="hardware/qcom-caf/msm8916/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8916" />
-  <project path="hardware/qcom-caf/msm8952/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8952" remote="e" />
+  <project path="hardware/qcom-caf/msm8952/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8952" remote="e-ssh" />
   <project path="hardware/qcom-caf/msm8952/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8952" />
   <project path="hardware/qcom-caf/msm8952/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8952" />
-  <project path="hardware/qcom-caf/msm8960/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8960" remote="e" />
+  <project path="hardware/qcom-caf/msm8960/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8960" remote="e-ssh" />
   <project path="hardware/qcom-caf/msm8960/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8960" />
   <project path="hardware/qcom-caf/msm8960/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8960" />
-  <project path="hardware/qcom-caf/msm8974/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8974" remote="e" />
+  <project path="hardware/qcom-caf/msm8974/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8974" remote="e-ssh" />
   <project path="hardware/qcom-caf/msm8974/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8974" />
   <project path="hardware/qcom-caf/msm8974/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8974" />
-  <project path="hardware/qcom-caf/msm8994/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8994" remote="e" />
+  <project path="hardware/qcom-caf/msm8994/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8994" remote="e-ssh" />
   <project path="hardware/qcom-caf/msm8994/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8994" />
   <project path="hardware/qcom-caf/msm8994/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8994" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="v1-q-caf-msm8996" remote="e" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="v1-q-caf-msm8996" remote="e-ssh" />
   <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8998" remote="e" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8998" remote="e-ssh" />
   <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8998" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-sdm845" remote="e" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-sdm845" remote="e-ssh" />
   <project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-sdm845" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-sm8150" remote="e" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-sm8150" remote="e-ssh" />
   <project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-sm8250" remote="e" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="e/os/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-sm8250" remote="e-ssh" />
   <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-sm8250" />
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" />
@@ -148,7 +148,7 @@
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" />
 
   <!-- Default apps -->
-  <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks" remote="e" revision="master" />
+  <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks" remote="e-ssh" revision="master" />
 
   <!-- Intel additions -->
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" revision="master" remote="aosp" />
