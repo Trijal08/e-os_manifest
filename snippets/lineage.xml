@@ -48,6 +48,7 @@
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
   <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" />
+  <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
