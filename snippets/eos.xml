@@ -18,4 +18,7 @@
   <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" />
   <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" />
 
+  <!-- ih8sn -->
+  <project path="external/ih8sn" name="e/os/ih8sn" remote="e" revision="master" />
+
 </manifest>
