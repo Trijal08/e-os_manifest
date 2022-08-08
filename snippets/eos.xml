@@ -10,6 +10,7 @@
   <project path="packages/apps/Eleven" name="e/os/android_packages_apps_Eleven" remote="e" />
   <project path="packages/apps/ExactCalculator" name="e/os/android_packages_apps_ExactCalculator" remote="e" />
   <project path="packages/apps/LineageParts" name="e/os/android_packages_apps_LineageParts" remote="e" />
+  <project path="packages/apps/OpenEUICC" name="e/os/android_packages_apps_OpenEUICC" remote="e" revision="master" />
   <project path="packages/apps/Recorder" name="e/os/android_packages_apps_Recorder" remote="e" />
   <project path="packages/apps/Trebuchet" name="e/os/android_packages_apps_Trebuchet" remote="e" />
   <project path="packages/apps/Updater" name="e/os/android_packages_apps_Updater" remote="e" />
