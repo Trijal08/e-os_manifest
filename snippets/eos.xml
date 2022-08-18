@@ -17,6 +17,7 @@
   <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks_lfs" remote="e" revision="main" />
   <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" />
   <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" />
+  <project path="packages/services/SplitInstallService" name="e/os/android_packages_services_SplitInstallService" remote="e" revision="main" />
 
   <!-- ih8sn -->
   <project path="external/ih8sn" name="e/os/ih8sn" remote="e" revision="master" />
