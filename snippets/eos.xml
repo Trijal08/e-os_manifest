@@ -24,6 +24,7 @@
   <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
   <remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+  <remove-project path="packages/apps/WallpaperPicker2" name="LineageOS/android_packages_apps_WallpaperPicker2" groups="pdk-fs" />
   <remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <remove-project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <remove-project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
@@ -61,6 +62,7 @@
   <project path="packages/apps/SetupWizard" name="e/os/android_packages_apps_SetupWizard" remote="e"/>
   <project path="packages/apps/Trebuchet" name="e/os/android_packages_apps_Trebuchet" remote="e" />
   <project path="packages/apps/Updater" name="e/os/android_packages_apps_Updater" remote="e" />
+  <project path="packages/apps/WallpaperPicker2" name="e/os/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="e" />
   <project path="packages/inputmethods/LatinIME" name="e/os/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="e"/>
   <project path="packages/modules/DnsResolver" name="e/os/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="packages/modules/Permission" name="e/os/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="e" />
