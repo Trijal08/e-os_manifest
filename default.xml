@@ -15,7 +15,7 @@
 
   <remote  name="e"
            fetch="https://gitlab.e.foundation"
-           revision="refs/heads/v1-t"/>
+           revision="refs/heads/epic42-t-bringup"/>
 
   <remote  name="e-priv"
            fetch="ssh://git@gitlab.e.foundation:2222"
