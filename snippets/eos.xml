@@ -30,6 +30,9 @@
   <remove-project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
+  <!-- Muppets -->
+  <project name="TheMuppets/proprietary_vendor_fairphone_FP3" path="vendor/fairphone/FP3" revision="lineage-20" clone-depth="1" />
+
   <!-- /e/ OS additions -->
   <project path="android" name="e/os/android" remote="e" />
   <project path="build/make" name="e/os/android_build" groups="pdk" remote="e" >
