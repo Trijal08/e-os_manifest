@@ -22,4 +22,7 @@
   <!-- ih8sn -->
   <project path="external/ih8sn" name="e/os/ih8sn" remote="e" revision="master" />
 
+  <!-- PicoTTS -->
+  <project path="external/svox" name="e/os/picotts" remote="e" />
+
 </manifest>
