@@ -50,6 +50,9 @@
   <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" />
   <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" />
 
+  <!-- PicoTTS -->
+  <project path="external/svox" name="e/os/picotts" remote="e" />
+
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
   <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-17.1-legacy" />
