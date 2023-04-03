@@ -7,6 +7,7 @@
   <remove-project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
   <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <remove-project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <remove-project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
   <remove-project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
@@ -36,8 +37,8 @@
   <remove-project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
-
   <!-- /e/ OS additions -->
+
   <project path="android" name="e/os/android" remote="e" />
   <project path="build/make" name="e/os/android_build" groups="pdk" remote="e" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -52,6 +53,7 @@
   <project path="device/lineage/sepolicy" name="e/os/android_device_lineage_sepolicy" remote="e" />
   <project path="frameworks/base" name="e/os/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="frameworks/libs/net" name="e/os/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="e" />
+  <project path="frameworks/libs/systemui" name="e/os/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="frameworks/opt/vcard" name="e/os/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="lineage-sdk" name="e/os/android_lineage-sdk" remote="e" />
   <project path="packages/apps/Backgrounds" name="e/os/android_packages_apps_Backgrounds" remote="e" />
