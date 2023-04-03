@@ -8,6 +8,7 @@
   <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
   <remove-project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <remove-project path="frameworks/libs/systemui" name="LineageOS/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" />
   <remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
@@ -38,8 +39,8 @@
   <remove-project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
-
   <!-- /e/ OS additions -->
+
   <project path="android" name="e/os/android" remote="e" />
   <project path="build/make" name="e/os/android_build" groups="pdk" remote="e" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -54,6 +55,7 @@
   <project path="frameworks/base" name="e/os/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="frameworks/native" name="e/os/android_frameworks_native" groups="pdk" remote="e" />
   <project path="frameworks/libs/net" name="e/os/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="e" />
+  <project path="frameworks/libs/systemui" name="e/os/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="frameworks/opt/vcard" name="e/os/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="hardware/interfaces" name="e/os/android_hardware_interfaces" groups="pdk" remote="e" />
   <project path="lineage-sdk" name="e/os/android_lineage-sdk" remote="e" />
