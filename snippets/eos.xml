@@ -25,4 +25,7 @@
   <!-- PicoTTS -->
   <project path="external/svox" name="e/os/picotts" remote="e" />
 
+  <!--vcard-->
+  <remove-project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/vcard" name="e/os/vcard" remote="e" />
 </manifest>
