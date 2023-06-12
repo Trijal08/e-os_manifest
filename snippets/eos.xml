@@ -27,5 +27,5 @@
 
   <!--vcard-->
   <remove-project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/vcard" name="e/os/vcard" remote="e" />
+  <project path="frameworks/opt/vcard" name="e/os/vcard" remote="e" revision="3639-r-aosp_vcard_eos" />
 </manifest>
