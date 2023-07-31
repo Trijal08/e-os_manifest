@@ -17,10 +17,6 @@
            fetch="https://gitlab.e.foundation"
            revision="refs/heads/v1-t"/>
 
-  <remote  name="hasib"
-           fetch="https://gitlab.e.foundation/hasibprince"
-           revision="refs/heads/master"/>
-
   <remote  name="e-priv"
            fetch="ssh://git@gitlab.e.foundation:2222"
            revision="refs/heads/v1-t"/>
@@ -750,7 +746,7 @@
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/car/setupwizard" name="platform/frameworks/opt/car/setupwizard" groups="pdk" remote="aosp" />
-  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" remote="hasib" />
+  <project path="frameworks/opt/chips" name="hasibprince/android_frameworks_opt_chips" revision="master" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/localepicker" name="platform/frameworks/opt/localepicker" remote="aosp" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" />
