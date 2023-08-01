@@ -91,7 +91,7 @@
   <project path="external/svox" name="e/os/picotts" remote="e" />
 
   <!-- vendor /e/os -->
-  <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" revision="v1-t-595-partner-build" />
+  <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" revision="v1-t-595-partner-builds" />
 
   <!-- weather -->
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" revision="lineage-16.0" />
