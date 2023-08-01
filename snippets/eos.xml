@@ -95,4 +95,8 @@
 
   <!-- weather -->
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" revision="lineage-16.0" />
+
+  <!--chips-->
+  <remove-project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/chips" name="hasibprince/android_frameworks_opt_chips" revision="rebase" remote="e" />
 </manifest>
