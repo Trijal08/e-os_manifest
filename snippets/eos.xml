@@ -33,8 +33,7 @@
   <remove-project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
-  <remove-project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
-
+  
   <!-- /e/ OS additions -->
   <project path="android" name="e/os/android" remote="e" />
   <project path="build/make" name="e/os/android_build" groups="pdk" remote="e" >
@@ -97,5 +96,4 @@
   <!-- weather -->
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" revision="lineage-16.0" />
 
-  <project path="package/apps/chips" name="hasibprince/android_frameworks_opt_chips" revision="rebase" remote="e" />
 </manifest>
