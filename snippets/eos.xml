@@ -98,5 +98,5 @@
 
   <!--chips-->
   <remove-project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/chips" name="hasibprince/android_frameworks_opt_chips" revision="rebase" remote="e" />
+  <project path="frameworks/opt/chips" name="hasibprince/android_frameworks_opt_chips" revision="v1-t-rebase" remote="e" />
 </manifest>
