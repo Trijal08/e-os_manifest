@@ -32,7 +32,7 @@
   <remove-project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" revision="v1-s-595-partner-builds"/>
+  <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage"/>
 
   <!-- /e/ OS additions -->
   <project path="android" name="e/os/android" remote="e" />
@@ -74,7 +74,7 @@
   <project path="packages/modules/Permission" name="e/os/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="packages/providers/MediaProvider" name="e/os/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="packages/services/Telephony" name="e/os/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="e" />
-  <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" />
+  <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" revision="v1-s-595-partner-builds" />
 
   <!-- ih8sn -->
   <project path="external/ih8sn" name="e/os/ih8sn" remote="e" revision="master" />
