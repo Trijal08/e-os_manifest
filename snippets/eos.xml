@@ -25,4 +25,8 @@
   <!-- PicoTTS -->
   <project path="external/svox" name="e/os/picotts" remote="e" />
 
+  <!--chips-->
+  <remove-project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/chips" name="e/os/android_frameworks_opt_chips" revision="master" remote="e" />
+
 </manifest>
