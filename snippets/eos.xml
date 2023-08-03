@@ -25,4 +25,6 @@
   <!-- PicoTTS -->
   <project path="external/svox" name="e/os/picotts" remote="e" />
 
+  <project path="frameworks/opt/chips" name="e/os/android_frameworks_opt_chips" revision="master" remote="e" />
+
 </manifest>
