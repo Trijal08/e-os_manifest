@@ -87,4 +87,8 @@
 
   <!-- weather -->
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" revision="lineage-16.0" />
+
+  <!--vcard-->
+  <remove-project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/vcard" name="e/os/vcard" remote="e" />
 </manifest>
