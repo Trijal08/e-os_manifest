@@ -100,5 +100,5 @@
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" revision="lineage-16.0" />
 
   <!--vcard-->
-  <project path="frameworks/opt/vcard" name="e/os/vcard" groups="pdk-cw-fs,pdk-fs" remote="e-wrong" revision="3639-t-aosp_vcard_eos"/>
+  <project path="frameworks/opt/vcard" name="e/os/vcard" groups="pdk-cw-fs,pdk-fs" remote="e" revision="3639-t-aosp_vcard_eos"/>
 </manifest>
