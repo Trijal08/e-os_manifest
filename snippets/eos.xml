@@ -29,6 +29,7 @@
   <remove-project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <remove-project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+  <remove-project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
 
   <!-- /e/ OS additions -->
   <project path="android" name="e/os/android" remote="e" />
@@ -89,6 +90,5 @@
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" revision="lineage-16.0" />
 
   <!--vcard-->
-  <remove-project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/vcard" name="e/os/vcard" remote="e" />
+  <project path="frameworks/opt/vcard" name="e/os/vcard" groups="pdk-cw-fs,pdk-fs" remote="e" revision="3639-t-aosp_vcard_eos"/>
 </manifest>
