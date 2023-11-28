@@ -3,6 +3,7 @@
 
   <!-- /e/ OS additions -->
   <project path="device/lineage/sepolicy" name="e/os/android_device_lineage_sepolicy" remote="e" />
+  <project path="frameworks/opt/vcard" name="e/os/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="lineage/android" name="e/os/android" remote="e" />
   <project path="lineage-sdk" name="e/os/android_lineage-sdk" remote="e" />
   <project path="packages/apps/Backgrounds" name="e/os/android_packages_apps_Backgrounds" remote="e" />
