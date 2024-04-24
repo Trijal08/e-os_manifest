@@ -15,13 +15,13 @@
   <project path="packages/apps/Trebuchet" name="e/os/android_packages_apps_Trebuchet" remote="e" />
   <project path="packages/apps/Updater" name="e/os/android_packages_apps_Updater" remote="e" />
   <project path="packages/apps/SetupWizard" name="e/os/android_packages_apps_SetupWizard" remote="e" />
-  <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks_lfs" remote="e" revision="main" />
+  <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks_lfs" remote="e" revision="v2.0" />
   <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" />
   <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" />
   <project path="packages/services/SplitInstallService" name="e/os/android_packages_services_SplitInstallService" remote="e"/>
 
   <!-- ih8sn -->
-  <project path="external/ih8sn" name="e/os/ih8sn" remote="e" revision="master" />
+  <project path="external/ih8sn" name="e/os/ih8sn" remote="e" revision="v2.0" />
 
   <!-- PicoTTS -->
   <project path="external/svox" name="e/os/picotts" remote="e" />
