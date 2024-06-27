@@ -8,7 +8,7 @@ To get started with /e/ OS, you'll need to get familiar with [Source Control Too
 
 To initialize your local repository using the /e/ OS trees, use a command like this:
 ```
-repo init -u https://gitlab.e.foundation/e/os/android.git -b v1-u --git-lfs
+repo init -u https://gitlab.e.foundation/e/os/android.git -b v1-u-a14 --git-lfs
 ```
 Then to sync up:
 ```
