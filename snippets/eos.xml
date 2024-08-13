@@ -97,4 +97,8 @@
 
   <!-- vendor /e/os -->
   <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" />
+
+  <!-- temp -->
+  <project name="althafvly/android_device_fairphone_FP4" path="device/fairphone/FP4" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_kernel_fairphone_sm7225" path="kernel/fairphone/sm7225" remote="github" revision="lineage-21" />
 </manifest>
