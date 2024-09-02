@@ -88,7 +88,7 @@
   <project path="packages/providers/MediaProvider" name="e/os/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="packages/services/Telephony" name="e/os/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="e" />
   <project path="packages/overlays/Lineage" name="e/os/android_packages_overlays_Lineage" remote="e" />
-  <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" />
+  <project path="vendor/lineage" name="e/os/android_vendor_lineage" remote="e" revision="2415-t-calendar_rebase" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="e/os/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="e" />
 
   <!-- ih8sn -->
@@ -101,11 +101,11 @@
   <project path="packages/services/SplitInstallService" name="e/os/android_packages_services_SplitInstallService" remote="e" revision="main" />
 
   <!-- PreBuilts -->
-  <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks_lfs" remote="e" revision="main" />
+  <project path="prebuilts/prebuiltapks" name="e/os/android_prebuilts_prebuiltapks_lfs" remote="e" revision="2415-calendar_rebase" />
 
   <!-- PicoTTS -->
   <project path="external/svox" name="e/os/picotts" remote="e" />
 
   <!-- vendor /e/os -->
-  <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" />
+  <project path="vendor/eos" name="e/os/android_vendor_eos" remote="e" revision="2415-t-calendar_rebase" />
 </manifest>
