@@ -19,6 +19,7 @@
   <remove-project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
   <remove-project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
   <remove-project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
+  <remove-project path="packages/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" />
   <remove-project path="packages/apps/ImsServiceEntitlement" name="platform/packages/apps/ImsServiceEntitlement" groups="pdk-fs" />
   <remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
   <remove-project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
@@ -63,6 +64,7 @@
   <project path="packages/apps/Etar" name="e/os/android_packages_apps_Etar" remote="e" />
   <project path="packages/apps/ExactCalculator" name="e/os/android_packages_apps_ExactCalculator" remote="e" />
   <project path="packages/apps/FMRadio" name="e/os/android_packages_apps_FMRadio" remote="e" />
+  <project path="packages/apps/Glimpse" name="e/os/android_packages_apps_Glimpse" remote="e" />
   <project path="packages/apps/ImsServiceEntitlement" name="e/os/android_packages_apps_ImsServiceEntitlement" groups="pdk-fs" remote="e" />
   <project path="packages/apps/LineageParts" name="e/os/android_packages_apps_LineageParts" remote="e" />
   <project path="packages/apps/Recorder" name="e/os/android_packages_apps_Recorder" remote="e" />
